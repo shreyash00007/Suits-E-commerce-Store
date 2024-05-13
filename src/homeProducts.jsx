@@ -5,41 +5,42 @@ const ProductSection = () => {
         {
             id: 1,
             title: 'Classic Navy Suit',
-            image: 'https://source.unsplash.com/eb0moHDPBI',
+            image: 'https://source.unsplash.com/ikjvPfC3pbI',
+            price: '$199',
             discount: '20% Off',
         },
         {
             id: 2,
             title: 'Charcoal Gray Suit',
-            image: 'https://source.unsplash.com/eb0moHDPBI',
+            image: 'https://source.unsplash.com/zNPlKIWCoZc',
             price: '$249',
             discount: '10% Off',
         },
         {
             id: 3,
             title: 'Black Slim Fit Suit',
-            image: 'https://source.unsplash.com/eb0moHDPBI',
+            image: 'https://source.unsplash.com/ZHmES480_XE',
             price: '$179',
             discount: '15% Off',
         },
         {
             id: 4,
             title: 'Blue Plaid Suit',
-            image: 'https://source.unsplash.com/eb0moHDPBI',
+            image: 'https://source.unsplash.com/vS0Kya7E5V4',
             price: '$299',
             discount: '30% Off',
         },
         {
             id: 5,
             title: 'Gray Windowpane Suit',
-            image: 'https://source.unsplash.com/eb0moHDPBI',
+            image: 'https://source.unsplash.com/Y8Me4ZbyEb4',
             price: '$219',
             discount: '25% Off',
         },
         {
             id: 6,
             title: 'Brown Tweed Suit',
-            image: 'https://source.unsplash.com/eb0moHDPBI',
+            image: 'https://source.unsplash.com/RuBXafq461A',
             price: '$189',
             discount: '12% Off',
         },
@@ -49,9 +50,9 @@ const ProductSection = () => {
         <div className="bg-gray-100 py-16 lg:py-24">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <h2 className="text-3xl font-extrabold tracking-tight text-gray-800 sm:text-4xl">Our Products</h2>
-                <div className="mt-10 grid grid-cols-1 gap-y-10 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3">
+                <div className="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3">
                     {products.map(product => (
-                        <div key={product.id} className="bg-white overflow-hidden shadow rounded-lg">
+                        <div key={product.id} className="bg-white overflow-hidden shadow-lg rounded-lg">
                             <img className="w-full h-64 object-cover" src={product.image} alt={product.title} />
                             <div className="p-6">
                                 <h3 className="text-lg font-semibold text-gray-800">{product.title}</h3>

@@ -26,10 +26,10 @@ const Navbar = () => {
                         </button>
                     </div>
                     <div className="hidden sm:-my-px sm:ml-6 sm:flex sm:space-x-8">
-                        <a href="#" className="inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-sm font-medium text-white hover:text-gray-300 hover:border-gray-300">Home</a>
-                        <a href="#" className="inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-sm font-medium text-white hover:text-gray-300 hover:border-gray-300">About Us</a>
-                        <a href="#" className="inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-sm font-medium text-white hover:text-gray-300 hover:border-gray-300">Products</a>
-                        <a href="#" className="inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-sm font-medium text-white hover:text-gray-300 hover:border-gray-300">Contact Us</a>
+                        <a href="#" className="inline-flex items-center px-1 pt-1 border-b-2 border-transparent font-semibold text-white hover:text-gray-300 hover:border-gray-300">Home</a>
+                        <a href="#" className="inline-flex items-center px-1 pt-1 border-b-2 border-transparent font-semibold text-white hover:text-gray-300 hover:border-gray-300">About Us</a>
+                        <a href="#" className="inline-flex items-center px-1 pt-1 border-b-2 border-transparent font-semibold text-white hover:text-gray-300 hover:border-gray-300">Products</a>
+                        <a href="#" className="inline-flex items-center px-1 pt-1 border-b-2 border-transparent font-semibold text-white hover:text-gray-300 hover:border-gray-300">Contact Us</a>
                     </div>
                 </div>
             </div>
